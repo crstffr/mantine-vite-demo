@@ -12,8 +12,8 @@ export function App(props) {
             placeholder="This is Mantine.TextInput"
           />
           <Mantine.Space h="md" />
-          <Mantine.MultiSelect
-            placeholder="This is Mantine.MultiSelect"
+          <Mantine.Select
+            placeholder="This is Mantine.Select"
             data={['Foo', 'Bar', 'Baz']}
           />
         </p>
