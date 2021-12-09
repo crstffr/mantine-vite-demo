@@ -1,20 +1,23 @@
 import { Logo } from './logo'
+import * as Mantine from '@mantine/core';
 
 export function App(props) {
   return (
     <>
-      <Logo />
-      <p>Hello Vite + Preact!</p>
-      <p>
-        <a
-          class="link"
-          href="https://preactjs.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Preact
-        </a>
-      </p>
+      <Mantine.Container>
+        <Logo />
+        <p>Hello Vite + Preact!</p>
+        <p>
+          <Mantine.TextInput
+            placeholder="This is Mantine.TextInput"
+          />
+          <Mantine.Space h="md" />
+          <Mantine.MultiSelect
+            placeholder="This is Mantine.MultiSelect"
+            data={['Foo', 'Bar', 'Baz']}
+          />
+        </p>
+      </Mantine.Container>
     </>
   )
 }
