@@ -1,0 +1,18 @@
+{
+  "name": "mantine-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mantine/core": "^3.3.5",
+    "@mantine/hooks": "^3.3.5",
+    "preact": "^10.5.15"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.1.5",
+    "vite": "^2.7.0"
+  }
+}
